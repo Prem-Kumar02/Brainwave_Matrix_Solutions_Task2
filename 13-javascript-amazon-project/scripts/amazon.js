@@ -80,11 +80,11 @@ document.querySelectorAll('.js-add-to-cart')
     const quantity=Number(quantitySelector.value);
 
     if(matchingItem){
-      matchingItem.quantity+=1;
+      matchingItem.quantity+=quantity;
     } else{
       cart.push({
         productId:productId,
-        quantity:quantity;
+        quantity:quantity
       });
     }
 
