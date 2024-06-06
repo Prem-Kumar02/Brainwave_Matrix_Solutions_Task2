@@ -13,7 +13,16 @@ const products = [
       "sports",
       "apparel"
     ]
-  },
+  },{
+    id:'id1',
+    image:"images/products/backpack.jpg",
+    name:"Skybags",
+    rating:{
+      stars:4,
+      count:76
+    },
+    priceCents:10000
+  } ,
   {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
     image: "images/products/intermediate-composite-basketball.jpg",
