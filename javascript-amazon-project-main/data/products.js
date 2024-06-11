@@ -54,6 +54,8 @@ class Clothing extends Product{
   }
 }
 
+//const date=new Date();
+
 
 export const products = [
   {
